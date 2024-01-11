@@ -7,7 +7,7 @@ http://bestcodes.weebly.com/a1z26.html
 """
 from __future__ import annotations
 
-
+# 加密方式：0-a, 1-b, ..., 26-z
 def encode(plain: str) -> list[int]:
     """
     >>> encode("myname")
